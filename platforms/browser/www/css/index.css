@@ -1,0 +1,52 @@
+body {
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+#nav-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: darkorange;
+    overflow: hidden;
+    max-height: 75px;
+    min-height: 30px;
+}
+
+#nav-bar ul li{
+    float:left;
+    height: inherit;
+    text-align: center;
+}
+
+#nav-bar ul .right{
+    float: right;
+    margin: auto;
+    padding: 7px 10px;
+}
+
+#nav-bar ul .right .ellipsis{
+    font-size: 25px;
+}
+#nav-bar ul .right:hover{
+    font-size: 25px;
+    background-color: rgba(255,255,255,0.51);
+    cursor: pointer;
+}
+
+#nav-bar ul li h1{
+    font-size: 15px;
+    padding: 3px 10px;
+    color: white;
+}
+
+#nav-bar ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 6px;
+    text-decoration: none;
+}

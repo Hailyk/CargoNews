@@ -1,0 +1,10 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "CargoNews",
+  "short_name": "CargoNews",
+  "version": "com.jiahaokuang.cargonews",
+  "description": "App for the Cargo News.",
+  "icons": [],
+  "start_url": "index.html"
+}
